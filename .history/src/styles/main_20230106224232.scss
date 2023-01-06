@@ -1,0 +1,101 @@
+.main-slide{
+    height:500px;
+    .swiper-slide {
+        height: 500px;
+        // background: url('') no-repeat center center;
+        background-size: cover;
+        display: flex;
+        flex: row;
+        justify-content: center;
+        .wrapper{
+            height: 500px;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+.main-search{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .wrapper{
+        height: 500px;
+    }
+    .inputgroup{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        max-width: 700px;
+        height: 50px;
+        .input{
+            width: 300px;
+            height: 50px;
+            border-radius: 5px;
+            border: 1px solid #bdbdbd;
+            padding: 0 10px;
+            margin: 0 10px;
+        }
+        .button{
+            width: 100px;
+            height: 50px;
+            border-radius: 5px;
+            border: 1px solid #bdbdbd;
+            padding: 0 10px;
+            margin: 0 10px;
+            background-color: #bdbdbd;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    }
+}
+main {
+    .main-category{
+
+        .course-list{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-gap: 20px;
+            padding: 20px 0;
+            
+        }
+    }
+    .group-section{
+        padding: 64px 32px 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .group-section__title{
+            line-height: 1.4;
+            letter-spacing: -.3px;
+            font-size: 20px;
+            margin-bottom: 20px;
+            font-weight: 700;
+            text-align: center;
+        }
+        .group-section__title--mobile-only {
+            display: none;
+        }
+        .group-section__logo-cover{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            .group-section__logo-el {
+                margin: 0 15px 20px;
+                height: 28px;
+                img {
+                    height: 100%;
+                    filter: grayscale(1);
+                }
+            }
+        }
+    }
+}

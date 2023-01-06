@@ -1,0 +1,87 @@
+#footer {
+    background: #303740;
+    min-height:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 70px;
+    .footer_top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 1200px;
+        padding: 0 32px;
+        border-bottom: 1px solid #444;
+        height: 150px;
+        margin: 20px 0;
+        .footer_menu{
+           height: 100%;
+        //    background-color: white;
+           width: 30%;
+           
+           .title{
+            color:#eee;
+            width: 100%;
+            margin: auto 0 ;
+            h4{
+                font-size: 18px;
+                font-weight: 600;
+                margin: 0;
+                padding: 0;
+            }
+           }
+           li{
+            color: #bdbdbd;
+            font-size: 14px;
+            line-height: 1.43;
+            margin-bottom: 7px;
+            margin:10px 0;
+            a{
+                display: inline-flex;
+                align-items: center;
+                height: 100%;
+                text-decoration:none;
+                font-weight: 600;
+                color: #bdbdbd;
+              }
+           }
+        }
+
+    }
+    .footer_bottom{
+        height: 150px;
+        display: grid;
+        grid-template-columns: 1.4fr 0.5fr 0.8fr;
+        width: 100%;
+        max-width: 1200px;
+        color: #bdbdbd;
+        font-size: 12px;
+        a{
+            display: inline-flex;
+            align-items: center;
+            height: 100%;
+            text-decoration:none;
+            font-weight: 600;
+            color: #bdbdbd;
+          }
+        .footer_info{
+            width: 100%;
+            height: 100%;
+            span+span:before {
+                display: inline-block;
+                content: "|";
+                color: #bdbdbd;
+                margin: 0 8px;
+                font-size: 12px;
+            }
+        }
+        .footer_bottom_right{
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+        }
+    }
+}

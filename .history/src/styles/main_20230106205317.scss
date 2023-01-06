@@ -1,0 +1,15 @@
+.main-slide{
+    height: 500px;
+    // background: url('') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex: row;
+    .wrapper{
+        height: 500px;
+    }
+}
+main {
+    .wrapper{
+        height: 500px;
+    }
+}
